@@ -1,0 +1,71 @@
+.hero {
+    margin: 270px 120px 0;
+
+}
+
+.heroContent {
+    color: #fff;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 130px;
+}
+
+.heroExplore {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px 5px 40px;
+    border-radius: 60px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.heroExplore p {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* styles.module.css */
+.playBtn {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroDots {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+
+.heroDot {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #FF6B00;
+    cursor: pointer;
+}
+
+.heroDotOrange {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: orange;
+    /* Example property, adjust as needed */
+    cursor: pointer;
+}
+
+.heroPlay {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.heroPlay p {
+    color: #fff;
+    font-size: 20px;
+}
